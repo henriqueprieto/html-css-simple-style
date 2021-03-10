@@ -258,6 +258,8 @@ a {
   }
   .footer-right {
     align-items: flex-start;
+    text-align: left;
+
   }
 }
 
