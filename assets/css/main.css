@@ -206,6 +206,8 @@ a {
 .footer-left p,
 .footer-right p {
   font-size: clamp(13px, calc(0.8125rem + ((1vw - 3px) * 0.1852)), 16px);
+  margin-block-start: 5px;
+  margin-block-end: 5px;
 }
 .footer-left p a:hover,
 .footer-right p a:hover {
