@@ -199,15 +199,12 @@ a {
   padding: 90px;
   background: #010102;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: space-between;
+  height: 100%;
 }
 
-.footer-left,
-.footer-right {
-  display: flex;
-  flex-direction: column;
-}
 .footer-left p,
 .footer-right p {
   font-size: clamp(13px, calc(0.8125rem + ((1vw - 3px) * 0.1852)), 16px);
@@ -219,12 +216,7 @@ a {
   color: #f96868;
 }
 
-.footer-right {
-  align-items: flex-end;
-}
-.footer-left {
-  align-items: flex-start;
-}
+
 /*media querys*/
 /*mobile version*/
 
