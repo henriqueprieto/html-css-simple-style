@@ -162,6 +162,7 @@ a {
 .main-wrap {
   background-image: url("https://wp.mateusavila.com.br/clientes/a55/imagem.jpg");
   height: 722px;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #010102;
