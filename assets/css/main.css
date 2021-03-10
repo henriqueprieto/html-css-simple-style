@@ -172,6 +172,7 @@ a {
 }
 .main-wrap h1 span {
   font-size: clamp(60px, calc(3.75rem + ((1vw - 3px) * 1.8519)), 90px);
+  font-weight: bold;
 }
 .main-wrap::after {
   position: absolute;
