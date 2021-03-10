@@ -77,8 +77,8 @@ a {
   font-size: clamp(13px, calc(0.8125rem + ((1vw - 3px) * 0.1852)), 16px);
 }
 
-.menu-links-desktop li:hover {
-  color: #010102;
+.menu-links-desktop li a:hover {
+  font-weight: bold;
 }
 
 .menu-socialmedia-icons {
@@ -168,7 +168,7 @@ a {
 }
 .main-wrap h1 {
   font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 24px);
-  font-weight: bold;
+  font-weight: 400;
 }
 .main-wrap h1 span {
   font-size: clamp(60px, calc(3.75rem + ((1vw - 3px) * 1.8519)), 90px);
