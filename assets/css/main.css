@@ -206,7 +206,9 @@ a {
 
 
 
-
+.newsletter  {
+  z-index: 3;
+}
 
 .newsletter-wrap  {
   padding: 30px;
