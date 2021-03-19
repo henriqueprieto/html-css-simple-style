@@ -13,7 +13,7 @@ h2,
 h3,
 a {
   color: #fff;
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
@@ -24,10 +24,10 @@ a {
 }
 
 .transition {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .transition:hover {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .menu-socialmedia-icons,
@@ -57,13 +57,15 @@ a {
 
 .header-wrap-right {
   justify-content: flex-end;
+  height: 100%;
 }
 
 .header-wrap-left {
   justify-content: flex-start;
+  height: 100%;
 }
-.header-wrap-left a{
-    display: contents;
+.header-wrap-left a {
+  display: contents;
 }
 .menu-logo-img {
   padding-left: 20px;
@@ -71,36 +73,54 @@ a {
   padding-bottom: 19px;
   padding-top: 23px;
 }
+.menu-logo-img:hover {
+  filter: invert(100%);
+}
 
-.menu-logo-text h2 {
-  font-size: 25px;
-  font-weight: 700;
+ul.menu-links-desktop {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-links-desktop li {
   color: #fff;
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   list-style-type: none;
-  padding: 0 20px;
+  padding: 27px 20px;
   font-size: clamp(13px, calc(0.8125rem + ((1vw - 3px) * 0.1852)), 16px);
 }
 
-.menu-links-desktop li a:hover {
+.menu-links-desktop li:hover a,
+.menu-links-desktop li:hover {
   font-weight: bold;
   text-decoration: overline underline;
-  
+  background-color: white;
+  color: #f96868;
 }
-
 
 .menu-socialmedia-icons {
-  padding: 0 20px;
+  padding: 18px 20px;
 }
-.menu-social-media-icon-facebook,
+
+.menu-socialmedia-icons img {
+  filter: invert(100%);
+}
+
+.menu-social-media-icon-facebook {
+  padding: 21px 9px;
+}
 .menu-social-media-icon-instagram {
-  padding: 0 9px;
+  padding: 18px 9px;
 }
+
+.menu-social-media-icon-instagram:hover,
+.menu-social-media-icon-facebook:hover {
+  filter: invert(100%);
+}
+
 .menu-mobile {
   visibility: hidden;
   display: none;
@@ -168,7 +188,7 @@ a {
 }
 
 .main-wrap {
-  background-image: url("https://wp.mateusavila.com.br/clientes/a55/imagem.jpg");
+  background-image: url("../img/bg-tecnology.png");
   height: 722px;
   background-size: cover;
   background-position: center;
@@ -180,7 +200,6 @@ a {
   align-items: center;
   padding: 0 90px;
   margin-top: 70px;
-
 }
 .main-wrap h1 {
   font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 24px);
@@ -204,53 +223,129 @@ a {
   z-index: 3;
 }
 
-
-
-.newsletter  {
+.newsletter-wrap {
   z-index: 3;
+  display: flex;
+  flex-direction: row;
+  padding: 90px;
+  background-color: #343434;
+  border: #fff 5px solid;
+  font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 24px);
+  
 }
 
-.newsletter-wrap  {
+.newsletter-wrap-left,
+.newsletter-wrap-right {
+  width: 50%;
+  text-align: left;
+  align-self: center;
+}
+.newsletter-wrap-left {
+  padding-right: 50px;
+}
+.newsletter-text-h2 {
+  padding: 0 20px 0 0;
+}
+
+.newsletter-fieldset {
   padding: 30px;
   box-sizing: border-box;
+  color: #fff;
+  font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 24px);
 }
-.newsletter-wrap  label {
+.newsletter-fieldset label {
   display: inline-block;
   margin-bottom: 10px;
 }
-.newsletter-wrap label.block {
+.newsletter-fieldset label.block {
   display: block;
   width: 100%;
 }
-.newsletter-wrap input[type=email], .newsletter-wrap input[type=text] {
+.newsletter-fieldset input[type="email"],
+.newsletter-fieldset input[type="text"] {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
   border: 1px solid #000;
   font-size: 15px;
 }
-.newsletter-wrap input[type=email]:focus, .newsletter-wrap input[type=text]:focus {
+.newsletter-fieldset input[type="email"]:focus,
+.newsletter-fieldset input[type="text"]:focus {
   background: #000;
   color: #fff;
   font-size: 30px;
 }
-.newsletter-wrap input[type=email]:invalid{
+.newsletter-fieldset input[type="email"]:invalid {
   color: red;
   border: 1px solid red;
   background: #bbb;
 }
-.newsletter-wrap input[type=email]:required {
+.newsletter-fieldset input[type="email"]:required {
   background: blue;
   color: #fff;
   border: 3px solid #888;
 }
-.newsletter-wrap input[type=email]:valid{
+.newsletter-fieldset input[type="email"]:valid {
   color: green;
   border: 1px solid green;
   background: #fafafa;
 }
 
+.table-ranking-top-languages-wrap {
+  background-color: #494949;
+  color: white;
+  padding: 90px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/bg-table-ranking.png");
+  height: 722px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+}
+.table-ranking-top-languages-wrap::after {
+  position: absolute;
+  left: 0;
+  top:0;
+  content: "";
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  height: 722px;
+  padding-bottom: 180px;
+  z-index: 2;
+}
 
+.table-ranking-top-languages-h2 {
+  padding-bottom: 20px;
+  font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 24px);
+  z-index: 4;
+}
+
+.table-ranking-top-languages-table {
+  border: white 2px solid;
+  margin-bottom: 90px;
+  z-index: 4;
+}
+.table-ranking-top-languages-table td {
+  padding: 15px;
+}
+.table-ranking-top-languages-table tr:nth-child(even) {
+  background-color: #363636;
+}
+.table-ranking-top-languages-table tr:nth-child(odd) {
+  background-color: #616360;
+}
+
+.table-ranking-top-languages-table th {
+  background-color: #363636;
+}
+
+.table-ranking-top-languages-table th {
+  padding: 25px;
+  text-align: left;
+}
 
 
 .footer-wrap {
@@ -262,7 +357,7 @@ a {
   justify-content: space-between;
   height: 100%;
 }
-.footer-right{
+.footer-right {
   text-align: right;
 }
 .footer-left p,
@@ -275,7 +370,6 @@ a {
 .footer-right p a:hover {
   color: #f96868;
 }
-
 
 /*media querys*/
 /*mobile version*/
@@ -308,6 +402,35 @@ a {
   .main-wrap {
     padding: 0 20px;
   }
+  .newsletter-wrap,.table-ranking-top-languages-wrap {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
+    
+  }
+  .table-ranking-top-languages-wrap::after{
+    padding-bottom: 80px;
+  }
+
+  .newsletter-wrap-left,
+  .newsletter-wrap-right {
+    align-self: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .table-ranking-top-languages-table th {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .table-ranking-top-languages-table td {
+    padding: 5px;
+  }
+
   .footer-wrap {
     display: flex;
     flex-direction: column;
@@ -318,7 +441,6 @@ a {
   .footer-right {
     align-items: flex-start;
     text-align: left;
-
   }
 }
 
