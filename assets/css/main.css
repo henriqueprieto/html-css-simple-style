@@ -320,7 +320,7 @@ ul.menu-links-desktop {
   content: "";
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
-  height: 722px;
+  height: 650px;
   padding-bottom: 180px;
   z-index: 2;
 }
@@ -440,6 +440,10 @@ ul.menu-links-desktop {
 
   .table-ranking-top-languages-table td {
     padding: 5px;
+  }
+
+  .table-ranking-top-languages-wrap::after {
+    height: 683px;
   }
 
   .footer-wrap {
