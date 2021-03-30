@@ -540,4 +540,10 @@ ul.menu-links-desktop {
   }
 }
 
+/*litle mobile version*/
+@media (max-width: 430px) {
+  .newsletter-fieldset {
+    padding: 10px;
+  }
+}
 /*end media querys*/
