@@ -302,7 +302,7 @@ ul.menu-links-desktop {
 .table-ranking-top-languages-wrap {
   background-color: #494949;
   color: white;
-  padding: 90px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   background-image: url("../img/bg-table-ranking.png");
