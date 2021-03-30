@@ -419,7 +419,7 @@ ul.menu-links-desktop {
   background-color: #363636;
   padding: 25px;
   text-align: left;
-  font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 20px);
+  font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 24px);
 }
 
 .footer-wrap {
