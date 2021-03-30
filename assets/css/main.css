@@ -417,11 +417,9 @@ ul.menu-links-desktop {
 
 .table-ranking-top-languages-table th {
   background-color: #363636;
-}
-
-.table-ranking-top-languages-table th {
   padding: 25px;
   text-align: left;
+  font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 20px);
 }
 
 .footer-wrap {
