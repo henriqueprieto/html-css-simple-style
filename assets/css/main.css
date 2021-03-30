@@ -400,9 +400,17 @@ ul.menu-links-desktop {
   z-index: 4;
 }
 
+.table-ranking-area {
+  overflow-x: auto;
+  width: 100%;
+  padding-bottom: 20px;
+  z-index: 4;
+}
+
 .table-ranking-top-languages-table {
   border: white 2px solid;
   margin-bottom: 90px;
+  width: 100%;
 }
 .table-ranking-top-languages-table td {
   padding: 15px;
@@ -464,13 +472,6 @@ ul.menu-links-desktop {
     align-self: flex-start;
     width: 100%;
     justify-content: flex-start;
-  }
-
-  .table-ranking-area {
-    overflow-x: auto;
-    width: 100%;
-    padding-bottom: 20px;
-    z-index: 4;
   }
 
   .table-ranking-top-languages-table {
