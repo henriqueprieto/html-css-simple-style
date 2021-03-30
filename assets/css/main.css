@@ -518,6 +518,9 @@ ul.menu-links-desktop {
   .table-ranking-top-languages-wrap::after {
     padding-bottom: 80px;
   }
+  .table-ranking-top-languages-table {
+    width: 600px;
+  }
 
   .table-ranking-top-languages-table th {
     padding: 15px;
