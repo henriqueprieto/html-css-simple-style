@@ -298,6 +298,53 @@ ul.menu-links-desktop {
   border: 1px solid green;
   background: #fafafa;
 }
+.newsletter-fieldset input[type="email"]:valid + .newsletter-button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.newsletter-fieldset input[type="email"]:invalid + .newsletter-button {
+  background-color: red;
+}
+
+.newsletter-fieldset input[type="email"]:valid + .newsletter-button:hover {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.newsletter-fieldset input[type="email"]:invalid + .newsletter-button:hover {
+  background-color: red;
+}
+
+.newsletter-button:hover {
+  background-color: #3e8e41;
+}
+
+.newsletter-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 .table-ranking-top-languages-wrap {
   background-color: #494949;
