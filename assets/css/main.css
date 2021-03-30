@@ -72,8 +72,10 @@ a {
   padding-right: 9px;
   padding-bottom: 19px;
   padding-top: 23px;
+  transition: all 0.4s ease-in-out;
 }
 .menu-logo-img:hover {
+  transition: all 0.4s ease-in-out;
   filter: invert(100%);
 }
 
@@ -90,11 +92,13 @@ ul.menu-links-desktop {
   font-weight: 400;
   list-style-type: none;
   padding: 27px 20px;
+  transition: all 0.4s ease-in-out;
   font-size: clamp(13px, calc(0.8125rem + ((1vw - 3px) * 0.1852)), 16px);
 }
 
 .menu-links-desktop li:hover a,
 .menu-links-desktop li:hover {
+  transition: all 0.4s ease-in-out;
   font-weight: bold;
   text-decoration: overline underline;
   background-color: white;
@@ -110,14 +114,17 @@ ul.menu-links-desktop {
 }
 
 .menu-social-media-icon-facebook {
+  transition: all 0.4s ease-in-out;
   padding: 21px 9px;
 }
 .menu-social-media-icon-instagram {
+  transition: all 0.4s ease-in-out;
   padding: 18px 9px;
 }
 
 .menu-social-media-icon-instagram:hover,
 .menu-social-media-icon-facebook:hover {
+  transition: all 0.4s ease-in-out;
   filter: invert(100%);
 }
 
@@ -231,7 +238,6 @@ ul.menu-links-desktop {
   background-color: #343434;
   border: #fff 5px solid;
   font-size: clamp(16px, calc(1rem + ((1vw - 3px) * 0.4938)), 24px);
-  
 }
 
 .newsletter-wrap-left,
@@ -268,12 +274,14 @@ ul.menu-links-desktop {
   box-sizing: border-box;
   border: 1px solid #000;
   font-size: 15px;
+  transition: all 0.4s ease-in-out;
 }
 .newsletter-fieldset input[type="email"]:focus,
 .newsletter-fieldset input[type="text"]:focus {
   background: #000;
   color: #fff;
   font-size: 30px;
+  transition: all 0.4s ease-in-out;
 }
 .newsletter-fieldset input[type="email"]:invalid {
   color: red;
@@ -308,7 +316,7 @@ ul.menu-links-desktop {
 .table-ranking-top-languages-wrap::after {
   position: absolute;
   left: 0;
-  top:0;
+  top: 0;
   content: "";
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -347,7 +355,6 @@ ul.menu-links-desktop {
   text-align: left;
 }
 
-
 .footer-wrap {
   padding: 90px;
   background: #010102;
@@ -365,9 +372,11 @@ ul.menu-links-desktop {
   font-size: clamp(13px, calc(0.8125rem + ((1vw - 3px) * 0.1852)), 16px);
   margin-block-start: 5px;
   margin-block-end: 5px;
+  transition: all 0.4s ease-in-out;
 }
 .footer-left p a:hover,
 .footer-right p a:hover {
+  transition: all 0.4s ease-in-out;
   color: #f96868;
 }
 
@@ -388,8 +397,10 @@ ul.menu-links-desktop {
     visibility: visible;
     display: flex;
     flex-direction: column;
+    transition: all 0.4s ease-in-out;
   }
   .menu-links-mobile:hover {
+    transition: all 0.4s ease-in-out;
     cursor: pointer;
   }
   .menu-links-mobile-line {
@@ -402,16 +413,16 @@ ul.menu-links-desktop {
   .main-wrap {
     padding: 0 20px;
   }
-  .newsletter-wrap,.table-ranking-top-languages-wrap {
+  .newsletter-wrap,
+  .table-ranking-top-languages-wrap {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-top: 20px;
-    
+
     padding-bottom: 20px;
-    
   }
-  .table-ranking-top-languages-wrap::after{
+  .table-ranking-top-languages-wrap::after {
     padding-bottom: 80px;
   }
 
