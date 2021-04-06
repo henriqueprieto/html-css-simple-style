@@ -390,7 +390,7 @@ ul.menu-links-desktop {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
   height: 650px;
-  padding-bottom: 180px;
+  padding-bottom: 112px;
   z-index: 2;
 }
 
@@ -431,6 +431,8 @@ ul.menu-links-desktop {
 
 .venhaprogramar {
   background-color: #343434;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .venhaprogramar-container {
