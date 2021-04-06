@@ -451,9 +451,10 @@ ul.menu-links-desktop {
 .venhaprogramar-my-image img {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   position: relative;
+  border-radius: 20px;
   z-index: 1;
   width: 100%;
-
+  margin-bottom: 40px;
   object-fit: cover;
 }
 .venhaprogramar-my-image-content {
